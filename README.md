@@ -64,8 +64,14 @@
   <li>Back on <strong>Client-1</strong>, I pinged <strong>"mainframe"</strong> again and observed that it still pinged the old address, as the local DNS cache had not yet updated.</li>
 </ul>
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Modify DNS Record Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/b28bc0b5-90de-4ee2-a920-cdf24fcfe0fe" alt="Modify DNS Record Image" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ad5043e9-00de-4841-bce9-017bb9920e68" alt="Modify DNS Record Image" width="80%">
+</p>
+
+
 
 <p><strong>Step 5: View and Flush the DNS Cache</strong></p>
 <ul>
@@ -74,8 +80,21 @@
   <li>After confirming that the cache was empty by running <strong>ipconfig /displaydns</strong> again, I attempted to ping <strong>"mainframe"</strong> once more and observed that the ping resolved to the new address <strong>8.8.8.8</strong>.</li>
 </ul>
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Local DNS Cache Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/c4028ace-9be2-48c1-ac0d-9a5461a09935" alt="Local DNS Cache Image" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8c7970e8-059e-4305-a0d0-0e8d121be250" alt="Local DNS Cache Image" width="80%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ffd2e620-7365-4cb9-8774-f8b052616fea" alt="Local DNS Cache Image" width="80%">
+</p>
+
+
+
+
+
 
 <h2>Part 3: CNAME Record Configuration</h2>
 
