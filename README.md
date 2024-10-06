@@ -11,12 +11,17 @@
 <p><strong>Step 1: Connect to the Virtual Machines</strong></p>
 <ul>
   <li>I turned on both <strong>DC-1</strong> and <strong>Client-1</strong> in the Azure Portal to ensure they were online.</li>
-  <li>I connected to <strong>DC-1</strong> using my domain admin account: <strong>mydomain.com\jane_admin</strong>.</li>
-  <li>Then, I connected to <strong>Client-1</strong> using the same domain admin account: <strong>mydomain\jane_admin</strong>.</li>
+  <li>I connected to <strong>DC-1</strong> using my domain admin account: <strong>mydomain.com\pablo_davis</strong>.</li>
+  <li>Then, I connected to <strong>Client-1</strong> using the same domain admin account: <strong>mydomain\pablo_davis</strong>.</li>
 </ul>
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="A-Record Configuration Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/3982d64a-c707-4807-a394-af99f62ca93a" alt="A-Record Configuration Image" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/14b798ff-f668-4630-914e-f7e619ca0282" alt="A-Record Configuration Image" width="80%">
+</p>
+
 
 <p><strong>Step 2: Testing DNS</strong></p>
 <ul>
@@ -24,8 +29,14 @@
   <li>I then ran <strong>nslookup mainframe</strong> on <strong>Client-1</strong>, which confirmed the absence of a DNS record for the hostname.</li>
 </ul>
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Testing DNS Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/3696fcc1-de96-4c1e-830e-31037cc888b0" alt="Testing DNS Image" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d4857fa6-a0dc-4073-9462-e2ac28022d80" alt="Testing DNS Image" width="80%">
+</p>
+
+
 
 <p><strong>Step 3: Create a DNS A-Record</strong></p>
 <ul>
@@ -33,9 +44,16 @@
   <li>I pointed this A-record to <strong>DC-1’s private IP address</strong>.</li>
   <li>Back on <strong>Client-1</strong>, I attempted to ping <strong>"mainframe"</strong> again and observed that the ping now succeeded because of the newly created A-record.</li>
 </ul>
+
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Create A-Record Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/e081ebad-e398-43c5-8b43-a163083cf63a" alt="Create A-Record Image" width="80%">
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e081ebad-e398-43c5-8b43-a163083cf63a" alt="Create A-Record Image" width="80%">
+</p>
+
 
 <h2>Part 2: Local DNS Cache Management</h2>
 
