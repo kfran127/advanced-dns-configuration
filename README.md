@@ -105,8 +105,16 @@
   <li>Finally, I ran <strong>nslookup search</strong> on <strong>Client-1</strong> to confirm the results of the CNAME record configuration.</li>
 </ul>
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="CNAME Record Configuration Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/044d003e-27b6-4cf5-b061-e656065b6dce" alt="CNAME Record Configuration Image" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bfe395c9-21c5-4205-becb-e4b52fd45651" alt="CNAME Record Configuration Image" width="80%">
+</p>
+
+
+
+
 
 <h2>Conclusion</h2>
 <p>In this lab, I successfully configured advanced DNS settings in an Active Directory environment using Azure Virtual Machines. I created A-records and CNAME records, managed DNS settings, and handled local DNS cache. These skills are vital for network management and security operations in real-world IT environments.</p>
