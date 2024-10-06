@@ -51,8 +51,9 @@
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e081ebad-e398-43c5-8b43-a163083cf63a" alt="Create A-Record Image" width="80%">
+  <img src="https://github.com/user-attachments/assets/27ecae75-a45e-404d-988d-b27c62f38c5d" alt="Create A-Record Image" width="80%">
 </p>
+
 
 
 <h2>Part 2: Local DNS Cache Management</h2>
